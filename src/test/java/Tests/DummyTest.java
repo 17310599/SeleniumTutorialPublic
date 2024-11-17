@@ -18,7 +18,7 @@ public class DummyTest extends Base {
 		driver.get("https://omayo.blogspot.com/");
 		driver.close();
 		System.out.println("Updated test method");
-		System.out.println("Updated frlm github");
+		System.out.println("Updated from github");
 
 
 	}
