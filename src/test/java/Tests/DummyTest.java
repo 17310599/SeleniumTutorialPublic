@@ -10,12 +10,16 @@ import resources.Base;
 public class DummyTest extends Base {
 	
 	WebDriver driver;
-
+	
 	@Test
 	public void testTwo() throws IOException
 	{
 		driver = initializeDriver();
 		driver.get("https://omayo.blogspot.com/");
 		driver.close();
+		System.out.println("Updated test method");
+
+
 	}
+	
 }
